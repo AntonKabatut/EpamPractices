@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Beers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="input.xsd">
+
+    <Beer xsi:type="NonAlcBeer">
+        <Name>bud</Name>
+        <Type>svetloe</Type>
+        <Al>false</Al>
+        <Manufacturer>companyPivo</Manufacturer>
+        <Ingredients>
+            <Name>water</Name>
+            <Name>weed</Name>
+            <Name>sugar</Name>
+        </Ingredients>
+        <Transparency>12323</Transparency>
+        <Filter>true</Filter>
+        <NutritionalValue>123213</NutritionalValue>
+        <Spill>
+            <objem>0,5</objem>
+            <material>steklo</material>
+        </Spill>
+    </Beer>
+
+    <Beer xsi:type="AlcBeer">
+        <Name>astaropramen</Name>
+        <Type>dark</Type>
+        <Al>true</Al>
+        <Manufacturer>companyPivo</Manufacturer>
+        <Ingredients>
+            <Name>water</Name>
+            <Name>weed</Name>
+            <Name>sugar</Name>
+        </Ingredients>
+        <Turnover>8</Turnover>
+        <Transparency>31413413</Transparency>
+        <Filter>true</Filter>
+        <NutritionalValue>45324</NutritionalValue>
+        <Spill>
+            <objem>0,5</objem>
+            <material>steklo</material>
+        </Spill>
+    </Beer>
+
+</Beers>

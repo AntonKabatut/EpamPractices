@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Beers>
+    <Beer>
+        <Name>astaropramen</Name>
+        <Type>dark</Type>
+        <Al>true</Al>
+        <Manufacturer>companyPivo</Manufacturer>
+        <Ingredients>
+            <Name>water</Name>
+            <Name>weed</Name>
+            <Name>sugar</Name>
+        </Ingredients>
+        <Turnover>8</Turnover>
+        <Transperency>31413413</Transperency>
+        <Filter>true</Filter>
+        <NutritionalValue>45324</NutritionalValue>
+        <Spill>
+            <objem>0,5</objem>
+            <material>steklo</material>
+        </Spill>
+    </Beer>
+    <Beer>
+        <Name>bud</Name>
+        <Type>svetloe</Type>
+        <Al>false</Al>
+        <Manufacturer>companyPivo</Manufacturer>
+        <Ingredients>
+            <Name>water</Name>
+            <Name>weed</Name>
+            <Name>sugar</Name>
+        </Ingredients>
+        <Transperency>12323</Transperency>
+        <Filter>true</Filter>
+        <NutritionalValue>123213</NutritionalValue>
+        <Spill>
+            <objem>0,5</objem>
+            <material>steklo</material>
+        </Spill>
+    </Beer>
+</Beers>
